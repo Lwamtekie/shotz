@@ -1,3 +1,8 @@
+import moviesData from './components/movies/movies';
 import '../styles/main.scss';
 
-console.error('hi');
+const init = () => {
+  moviesData.initializeMovies();
+};
+
+init();
