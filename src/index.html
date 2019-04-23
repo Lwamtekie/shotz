@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Shotz</title>
 </head>
+
 <body>
   <div id="app">
     <h2>Movies:</h2>
     <div id="movies" class="d-flex flex-wrap"></div>
     <h2>Locations:</h2>
     <div id="filters">
-      <div class="row">
-        <input type="text" placeholder="Search Here!">
-      </div>
+      <div class="row justify-content-center">
+        <input type="text" id="search-input" placeholder="Search Here!">
+        </div>
       <div class="row">
         <button id="all" class="btn btn-outline-dark">All</button>
         <button id="morning" class="btn bg-primary">Morning</button>
@@ -24,7 +26,8 @@
       </div>
     </div>
     <div id="locations" class="d-flex flex-wrap"></div>
-    
+
   </div>
 </body>
+
 </html>
