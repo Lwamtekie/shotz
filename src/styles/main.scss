@@ -1,9 +1,42 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color:burlywood;
+  background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/04/19/44/62582c1e02cf765.jpg");
+    background-position: center center ; 
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
-locations {
+#locations {
+  
+
+}
+.h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.row{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  border: double;
+  border: lightpink;
+  
+}
+#app{
+  margin-left: 2rem;
+  padding: 1rem;
+  margin-top: 2rem;
+ 
+}
+
+.list-group-item{
+  background-color:papayawhip;
+  text-align: center;
+}
+
+.flex-wrap {
+  justify-content: space-between;
   
 }

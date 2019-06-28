@@ -34,6 +34,7 @@ const domStringBuilder = (locArray) => {
     domString += '<ul class="list-group list-group-flush">';
     domString += `<li class="list-group-item address"><strong>Address</strong><br> ${location.address}</li>`;
     domString += '</ul>';
+
     domString += '</div>';
   });
   util.printToDom('locations', domString);
@@ -72,6 +73,7 @@ const filterByTextEvent = (e) => {
   });
   domStringBuilder(searchLocations);
 };
+
 const initializeLocations = () => {
   locationsData.getLocationsData()
     .then((resp) => {
