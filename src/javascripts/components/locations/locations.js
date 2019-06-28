@@ -1,6 +1,5 @@
 import locationsData from '../../helpers/data/locationsData';
 import util from '../../helpers/util';
-
 import './locations.scss';
 
 let locations = [];
@@ -29,12 +28,13 @@ const shootTimeClass = (shootTime) => {
 const domStringBuilder = (locArray) => {
   let domString = '';
   locArray.forEach((location) => {
-    domString += `<div id=${location.id} class="card location col-2">`;
+    domString += `<div id="${location.id}" class="card location col-2">`;
     domString += `<div class="card-header ${shootTimeClass(location.shootTime)}">${location.name}</div>`;
-    domString += '<div class="card-body">';
-    domString += `<img class="card-img-top" src="${location.imageUrl}" alt="${location.name}">`;
-    domString += `<h5 class="card-title">${location.address}</h5>`;
-    domString += '</div>';
+    domString += `<img class="card-img-top"> <img src="${location.imageUrl}">`;
+    domString += '<ul class="list-group list-group-flush">';
+    domString += `<li class="list-group-item address"><strong>Address</strong><br> ${location.address}</li>`;
+    domString += '</ul>';
+
     domString += '</div>';
   });
   util.printToDom('locations', domString);
@@ -89,5 +89,4 @@ const initializeLocations = () => {
     })
     .catch(err => console.error(err));
 };
-
-export default { initializeLocations };
+export default { initializeLocations, domStringBuilder };
