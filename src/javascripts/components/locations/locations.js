@@ -30,7 +30,7 @@ const domStringBuilder = (locArray) => {
   locArray.forEach((location) => {
     domString += `<div id="${location.id}" class="card location col-2">`;
     domString += `<div class="card-header ${shootTimeClass(location.shootTime)}">${location.name}</div>`;
-    domString += `<img class="card-img-top"> <img src="${location.imageUrl}">`;
+    domString += `<img class="card-img-top" src="${location.imageUrl}" alt="${location.image}">`;
     domString += '<ul class="list-group list-group-flush">';
     domString += `<li class="list-group-item address"><strong>Address</strong><br> ${location.address}</li>`;
     domString += '</ul>';

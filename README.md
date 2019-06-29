@@ -1,15 +1,25 @@
-Shotz
-Description
-A website to keep track of movies and their shooting locations.
+#Title:
 
-Screenshots
-Installation Instructions
-Clone down this repo
+
+Shotz, a website to keep track of movies and their shooting locations.
+
+#Screenshots:
+
+
+
+#Installation Instructions:
+
+Clone down this repo https://github.com/Lwamtekie/shotz
 At the root of the project run npm install
-How to Run
+
+#How to Run:
+
+
 In your terminal type npm start.
 If you want to make a production build of this project type npm run build. This will create a folder called build with all the minified code you need.
 
-Author
+#Author:
+
+
 Lwam Tekie
 

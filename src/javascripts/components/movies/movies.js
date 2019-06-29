@@ -11,7 +11,7 @@ const domStringBuilder = (movieArray) => {
     domString += `<div id=${movie.id} class="card movie col-2">`;
     domString += `<div class="card-header">${movie.name}</div>`;
     domString += '<div class="card-body">';
-    domString += `<img class="card-img-top" src="${movie.imgUrl}" alt="Card image cap">`;
+    domString += `<img class="card-img-top" src="${movie.imgUrl}" alt="image">`;
     domString += `<h5 class="card-title">${movie.genre}</h5>`;
     domString += `<h5 class="card-title">${movie.releaseDate}</h5>`;
     domString += `<h5 class="card-title">${movie.description}</h5>`;
