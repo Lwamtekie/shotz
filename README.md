@@ -20,6 +20,5 @@ If you want to make a production build of this project type npm run build. This 
 
 #Author:
 
-
 Lwam Tekie
 
