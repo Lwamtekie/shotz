@@ -5,11 +5,14 @@ body {
     background-position: center center ; 
     background-size: cover;
     background-attachment: fixed;
-
+    justify-content: center;
 }
 
 #locations {
-  
+  display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 2rem;
 
 }
 .h2 {
@@ -17,17 +20,15 @@ body {
   text-align: center;
 }
 
-.row{
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  border: double;
-  border: lightpink;
-  
-}
 #app{
   margin-left: 2rem;
   padding: 1rem;
   margin-top: 2rem;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+
  
 }
 
@@ -36,7 +37,39 @@ body {
   text-align: center;
 }
 
-.flex-wrap {
-  justify-content: space-between;
+
+.filters{
+  justify-content: center;
+}
+
+.card-body {
+  background-image: url("https://wallimpex.com/data/out/226/wooden-backgrounds-6100671.jpg");
+  background-position: center center ; 
+  background-size: cover;
+  background-attachment: fixed;
   
+}
+
+.card-img-top{
+  height: 250px;
+  max-width: 150px;
+}
+.card{
+  margin: 5px;
+    border: 1px solid BLACK;
+    box-shadow: 1px 2px 2px 1px;
+    -webkit-flex-flow: row wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5ppx;
+    margin-right: 5px;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+  justify-content: center;
 }
