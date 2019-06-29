@@ -28,6 +28,10 @@ body {
   flex-direction: column;
   display: flex;
   -webkit-flex-flow: row wrap;
+display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 2rem;
 
  
 }
