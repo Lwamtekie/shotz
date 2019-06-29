@@ -5,6 +5,7 @@ Shotz, a website to keep track of movies and their shooting locations.
 
 #Screenshots:
 
+![screenshot](https://raw.githubusercontent.com/Lwamtekie/shotz/master/screenshot/screencapture-localhost-8080-2019-06-29-11_24_42.png)
 
 
 #Installation Instructions:
