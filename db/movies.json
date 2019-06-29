@@ -1,8 +1,9 @@
 {
 	"movies": [{
 			"id": "movie1",
-			"name": "Super Secret Movie",
-			"genre": "Thriller",
+			"name": "The Defiant Ones",
+			"genre": "Crime",
+			"imgUrl":"http://www.gstatic.com/tv/thumb/v22vodart/2316/p2316_v_v8_aa.jpg",
 			"releaseDate": "10/15/2020",
 			"description": "super exclusive can't tell you",
 			"locations": [
@@ -13,8 +14,9 @@
 		},
 		{
 			"id": "movie2",
-			"name": "Super Secret Movie2",
-			"genre": "Thriller",
+			"name": "Free State of Jones",
+			"genre": "Action",
+			"imgUrl":"http://www.gstatic.com/tv/thumb/v22vodart/12288235/p12288235_v_v8_aa.jpg",
 			"releaseDate": "10/16/2020",
 			"description": "super exclusive can't tell you",
 			"locations": [
@@ -24,8 +26,9 @@
 		},
 		{
 			"id": "movie3",
-			"name": "Super Secret Movie3",
-			"genre": "Thriller",
+			"name": "The Mask of Zorro",
+			"genre": "Action",
+			"imgUrl":"http://www.gstatic.com/tv/thumb/v22vodart/21352/p21352_v_v8_ab.jpg",
 			"releaseDate": "10/17/2020",
 			"description": "super exclusive can't tell you",
 			"locations": [
@@ -42,8 +45,9 @@
 		},
 		{
 			"id": "movie4",
-			"name": "Super Secret Movie4",
-			"genre": "Thriller",
+			"name": "The Age of Adaline",
+			"genre": "Fantasy",
+			"imgUrl":"http://www.gstatic.com/tv/thumb/v22vodart/11002256/p11002256_v_v8_am.jpg",
 			"releaseDate": "10/18/2020",
 			"description": "super exclusive can't tell you",
 			"locations": [
